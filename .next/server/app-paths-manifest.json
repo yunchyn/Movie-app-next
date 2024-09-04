@@ -1,6 +1,7 @@
 {
   "/(movies)/movies/[id]/page": "app/(movies)/movies/[id]/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(home)/page": "app/(home)/page.js",
-  "/search/page": "app/search/page.js"
+  "/tv-list/page": "app/tv-list/page.js",
+  "/movie-list/page": "app/movie-list/page.js",
+  "/search/page": "app/search/page.js",
+  "/(tvshows)/tvshows/[id]/page": "app/(tvshows)/tvshows/[id]/page.js"
 }

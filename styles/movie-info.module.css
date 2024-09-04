@@ -14,7 +14,7 @@
 
 .title {
   color: white;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -23,12 +23,21 @@
   flex-direction: column;
   margin-top: 20px;
   gap: 20px;
+  font-size: 13px;
   color: rgb(194, 194, 194);
 }
 
 .imgList {
   display: flex;
   align-items: center;
+}
+
+.overview {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 15;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .flag {
