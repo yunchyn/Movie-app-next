@@ -1,7 +1,5 @@
-import { MovieSet } from "../(home)/page";
-import Movie from "../../components/movie";
-import styles from "../../styles/home.module.css";
-import { getMovieList, getMovies, getMoviesByGenre, getTvShows, makeImagePath } from "../utilities";
+import { MovieSet } from "../../components/movie-set";
+import { getMovieList, makeImagePath } from "../utilities";
 
 export const metadata = {
   title: "Movie-list",
@@ -14,8 +12,6 @@ export default async function TvList() {
       <MovieSet
         title="영화"
         movies={movies}
-        styles={styles}
-        makeImagePath={makeImagePath}
       />
     </>
   );
